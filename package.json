@@ -1,0 +1,29 @@
+{
+  "name": "CBTSS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "nodemon token_Kovan.js"
+  },
+  "author": "Hargobind Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@truffle/hdwallet-provider": "^1.0.40",
+    "async": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "hooked-web3-provider": "^1.0.0",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "require-header": "^1.0.4",
+    "web3": "^1.2.6",
+    "web3-eth": "^1.2.6"
+  }
+}
